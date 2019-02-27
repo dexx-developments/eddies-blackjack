@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Eddie's BlackJack</title>
+	<meta name="description" content="BlackJack Game" />
+	<meta name="author" content="Edison Kardirsson" />
+    <link rel="stylesheet" type="text/css" href="styles/blackjack.css" />
+</head>
+<body>
+    <header>
+        <h1>Eddie's BlackJack</h1>
+    </header>
+    <main class="game-layout">
+        <div class="interface game-interface">
+            <div class="cardDiv">
+                <div id="dealer-cards">
+                    <img class="cards dealer-cards" id="dealerCard1" />
+                    <img class="cards dealer-cards" id="dealerCard2" />
+                    <img class="cards dealer-cards" id="dealerCard3" />
+                    <img class="cards dealer-cards" id="dealerCard4" />
+                    <img class="cards dealer-cards" id="dealerCard5" />
+                    <img class="cards dealer-cards" id="dealerCard6" />
+                    <img class="cards dealer-cards" id="dealerCard7" />
+                </div>
+                <div id="player-cards">
+                    <img class="cards player-cards" id="playerCard1" />
+                    <img class="cards player-cards" id="playerCard2" />
+                    <img class="cards player-cards" id="playerCard3" />
+                    <img class="cards player-cards" id="playerCard4" />
+                    <img class="cards player-cards" id="playerCard5" />
+                    <img class="cards player-cards" id="playerCard6" />
+                    <img class="cards player-cards" id="playerCard7" />
+                </div>
+            </div>
+            <div class="moneyDiv">
+                <p id="money"></p>
+                <button id="two-dollar-button">Bet $2</button>
+                <button id="five-dollar-button">Bet $5</button>
+                <button id="ten-dollar-button">Bet $10</button>
+                <br />
+                <button id="twenty-dollar-button">Bet $20</button>
+                <button id="fifty-dollar-button">Bet $50</button>
+                <button id="hundred-dollar-button">Bet $100</button>
+                <br />
+                <button id="add-funds-button">Add Cash</button>
+                <button id="all-in-button">ALL IN!</button>
+            </div>
+            <div class="output">
+                <p id="text-area">Welcome!</p>
+                <button id="new-game-button">New Game!</button>
+                <button id="starting-hit-button">Start Round!</button>
+                <button id="hit-button">Hit Me!</button>
+                <button id="stay-button">Stay!</button>
+            </div>
+            <div>
+                <div class="blank-card-div">
+                    <div>
+                        <img id="cover-card" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="timestamp"></p>
+        <p id="copyright">&#xa9; February 2019 Edison Kardirsson<br />Dexx Developments<br>
+        Any copyright infringement will NOT be prosecuted!<br />
+		Also thanks to Mark Zamoyta from <a href="https://app.pluralsight.com/profile/author/mark-zamoyta" target="_blank" >Pluralsight.com</a></p>
+    </footer>
+    <script type="text/javascript" src="scripts/blackjack.js"></script>
+</body>
+</html>
